@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Golos UI';
+    src: url('fonts/Golos-UI-Regular.woff2') format('woff2'),
+         url('fonts/Golos-UI-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos UI';
+    src: url('fonts/Golos-UI-Medium.woff2') format('woff2'),
+         url('fonts/Golos-UI-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos UI', Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+
+.page {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    font-size: 0;
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    left: 50%;
+    margin-left: -600px;
+    top: 0;
+    width: 72px;
+    height: 1080px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #2222220D;
+}
+
+.sidebar__menu {
+    width: 40px;
+    margin: 40px auto;
+}
+
+.sidebar__item {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.sidebar__item:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar__icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.feed {
+    width: 474px;
+    margin: 73px auto 0 auto;
+    font-size: 16px;
+}
+
+.post {
+    width: 474px;
+    margin-bottom: 40px;
+}
+
+.post__header {
+    width: 474px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.post__author {
+    float: left;
+}
+
+.post__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    float: left;
+    margin-right: 8px;
+}
+
+.post__author-name {
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    float: left;
+}
+
+.post__edit {
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 4px;
+}
+
+.post__media {
+    width: 474px;
+    height: 474px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.post__image {
+    width: 474px;
+    height: 474px;
+    display: block;
+}
+
+.post__indicator {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 44px;
+    height: 24px;
+    background: #22222280;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    z-index: 2;
+}
+
+.post__slider {
+    position: absolute;
+    top: 221px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #FFFFFF99;
+    cursor: pointer;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.post__slider-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.post__actions {
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.post__like-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 3px;
+}
+
+.post__likes-count {
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    float: left;
+}
+
+.post__text {
+    width: 474px;
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-bottom: 4px;
+}
+
+.post__more {
+    width: 28px;
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+    margin-bottom: 4px;
+}
+
+.post__time {
+    width: 79px;
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #22222280;
+}

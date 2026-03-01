@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход — Социальная сеть</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Войти</h1>
+                <div class="hero__image-wrapper">
+                    <img src="user-photo.jpg" alt="Человек с рюкзаком" class="hero__image">
+                </div>
+            </div>
+        </div>
+        <div class="auth">
+            <div class="auth__error">
+                <span class="auth__error-emoji">🤓</span> Поля обязательные
+            </div>
+            <form class="auth__form" action="#" method="post">
+                <div class="auth__field">
+                    <label class="auth__label" for="email">Электропочта</label>
+                    <input class="auth__input" type="email" id="email" name="email">
+                    <p class="auth__hint">Введите электропочту в формате *****@***.**</p>
+                </div>
+                
+                <div class="auth__field">
+                    <label class="auth__label" for="password">Пароль</label>
+                    <div class="auth__password-wrapper">
+                        <input class="auth__password-input" type="password" id="password" name="password">
+                        <img src="eye-off.jpg" alt="Показать пароль" class="auth__eye-icon">
+                    </div>
+                </div>
+                
+                <button class="auth__button" type="submit">Продолжить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

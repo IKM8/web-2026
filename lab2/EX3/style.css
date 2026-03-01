@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Golos UI';
+    src: url('fonts/Golos-UI-Regular.woff2') format('woff2'),
+         url('fonts/Golos-UI-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos UI';
+    src: url('fonts/Golos-UI-Medium.woff2') format('woff2'),
+         url('fonts/Golos-UI-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos UI', Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    font-size: 0;
+}
+
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 72px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #2222220D;
+}
+
+.sidebar__menu {
+    width: 40px;
+    margin: 40px auto;
+}
+
+.sidebar__item {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+}
+
+.sidebar__item:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar__icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.profile {
+    display: inline-block;
+    vertical-align: top;
+    width: 1369px;
+    font-size: 16px;
+}
+
+.profile__top-block {
+    width: 1369px;
+    height: 0px;
+}
+
+.profile__avatar-wrapper {
+    width: 123px;
+    height: 123px;
+    margin: 0px auto 0 auto;
+}
+
+.profile__avatar {
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    display: block;
+}
+
+.profile__name {
+    width: 361px;
+    height: 32px;
+    margin: 20px auto 0 auto;
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    color: #222222;
+    text-align: center;
+}
+
+.profile__bio {
+    width: 361px;
+    height: 36px;
+    margin: 10px auto 0 auto;
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    text-align: center;
+}
+
+.profile__stats {
+    width: 101px;
+    height: 30px;
+    margin: 18px auto 0 auto;
+    background-color: #F2F3F5;
+    border-radius: 6px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.profile__stats-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.profile__stats-count {
+    font-family: 'Golos UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile__posts {
+    width: 971.9999389648438px;
+    margin: 52px auto 0 auto;
+}
+
+.profile__grid {
+    width: 100%;
+    font-size: 0;
+}
+
+.profile__grid-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 322.346923828125px;
+    margin-right: 2.48px;
+    margin-bottom: 2.48px;
+    border-radius: 2px;
+}
+
+.profile__grid-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.profile__grid-image {
+    width: 322.346923828125px;
+    height: 322.346923828125px;
+    display: block;
+    border-radius: 2px;
+    background-color: #B4B4B4;
+}
+
+.profile__grid-item--partial {
+    width: 322.346923828125px;
+    vertical-align: bottom;
+}
+
+.profile__grid-image--original {
+    display: block;
+    border-radius: 2px;
+    max-width: 322.346923828125px;
+}
