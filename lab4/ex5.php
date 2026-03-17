@@ -5,6 +5,7 @@
     </head>
 
     <body>
+        <h1> Задача 5 </h1>
         <form method="GET" action = "">
             <p>Введите число</p>
             <input type="number" name="digit">

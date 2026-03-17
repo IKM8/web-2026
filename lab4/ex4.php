@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Задачи </title>
+        <title> Задача 4</title>
     </head>
     <body>
+        <h1> Задача 4 </h1>
         <form method="GET" action = "">
             <p>Введите билеты</p>
             <input type="number" name="number1" min="100000" max="999999">

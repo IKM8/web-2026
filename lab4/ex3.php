@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Задачи </title>
+        <title> Задача 3 </title>
     </head>
 
     <body>
+        <h1> Задача 3 </h1>
         <form method="GET" action="">
             <p> Введите дату в формате ДД.ММ.ГГГГ или ДД.ММ</p>
             <input type="text", name="date">
