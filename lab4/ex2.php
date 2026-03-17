@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title> Задачи </title>
+        <title> Задача 2</title>
     </head>
     <body>
         <h1> Задача 2 </h1>
