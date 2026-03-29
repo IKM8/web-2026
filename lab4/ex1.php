@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Задачи 1 </title>
+        <title> Задача 1 </title>
     </head>
 
 
