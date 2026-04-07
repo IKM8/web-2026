@@ -34,18 +34,25 @@ body {
     border-right: 1px solid #2222220D;
     flex-shrink: 0;
 }
+
 .sidebar__menu {
     width: 40px;
     margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
+
+.sidebar__link {
+    display: block;
+    text-decoration: none;
+}
+
 .sidebar__item {
     width: 40px;
     height: 40px;
-    margin-bottom: 16px;
 }
-.sidebar__item:last-child {
-    margin-bottom: 0;
-}
+
 .sidebar__icon {
     width: 40px;
     height: 40px;

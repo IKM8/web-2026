@@ -2,7 +2,6 @@
 $posts = [
     [
         'id' => 1,
-        'title' => 'The Road Ahead',
         'subtitle' => 'Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в гор...',
         'img_modifier' => '',
         'author' => 'Ваня Денисов',
@@ -15,7 +14,6 @@ $posts = [
     ],
     [
         'id' => 2,
-        'title' => 'Стакан с цветами',
         'subtitle' => '',
         'img_modifier' => '',
         'author' => 'Лиза Дёмина',
@@ -28,11 +26,7 @@ $posts = [
     ],
 ];
 
-$menuItems = [
-    ['image' => 'images/menu_item1.jpg', 'alt' => 'Меню 1'],
-    ['image' => 'images/menu_item2.jpg', 'alt' => 'Меню 2'],
-    ['image' => 'images/menu_item3.jpg', 'alt' => 'Меню 3'],
-];
+
 ?>
 
 <!DOCTYPE html>
@@ -46,11 +40,21 @@ $menuItems = [
     <div class="page">
         <div class="sidebar">
             <div class="sidebar__menu">
-                <?php foreach ($menuItems as $item): ?>
+                <a href="home.php" class="sidebar__link">
                     <div class="sidebar__item">
-                        <img src="<?= $item['image'] ?>" alt="<?= $item['alt'] ?>" class="sidebar__icon">
+                        <img src="images/menu_item1.jpg" alt="Главная" class="sidebar__icon">
                     </div>
-                <?php endforeach; ?>
+                </a>
+                <a href="profile.php" class="sidebar__link">
+                    <div class="sidebar__item">
+                        <img src="images/menu_item2.jpg" alt="Профилю" class="sidebar__icon">
+                    </div>
+                </a>
+                <a href="add_post.php" class="sidebar__link">
+                    <div class="sidebar__item">
+                        <img src="images/menu_item3.jpg" alt="Создать пост" class="sidebar__icon">
+                    </div>
+                </a>
             </div>
         </div>
         <div class="feed">

@@ -7,7 +7,7 @@
         <img src="images/edit.jpg" alt="Редактировать" class="post__edit">
     </div>
     <div class="post__media">
-        <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>" class="post__image">
+        <img src="<?= $post['image'] ?>" alt="Фото поста" class="post__image">
         <?php if ($post['has_slider']): ?>
             <div class="post__indicator">1/<?= $post['images_count'] ?></div>
             <div class="post__slider">
@@ -24,5 +24,5 @@
         <div class="post__more">ещё</div>
     <?php endif; ?>
     <div class="post__time"><?= date('d.m.Y H:i', $post['date']) ?></div>
-    <a href="post.php?id=<?= $post['id'] ?>" class="post__link" title="<?= $post['title'] ?>">Читать далее</a>
+    <a href="post.php?id=<?= $post['id'] ?>" class="post__link" title="Чидать далее">Читать далее</a>
 </div>
