@@ -39,7 +39,7 @@ $menuItems = [
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Главная — Социальная сеть</title>
+    <title>Главная - Социальная сеть</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>

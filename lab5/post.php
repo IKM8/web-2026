@@ -34,11 +34,6 @@ $postId = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 if (isset($posts[$postId])) {
     $post = $posts[$postId];
-} else {
-    http_response_code(404);
-    echo "<h1>Пост не найден</h1>";
-    echo "<a href='home.php'>Вернуться на главную</a>";
-    exit;
 }
 ?>
 
@@ -75,7 +70,7 @@ if (isset($posts[$postId])) {
                 <span class="post-page__likes-count"><?= $post['likes'] ?></span>
             </div>
             <div class="post-page__date"><?= date('d.m.Y H:i', $post['date']) ?></div>
-            <a href="home.php" class="post-page__back">← Назад к постам</a>
+            <a href="home.php" class="post-page__back">Назад к постам</a>
         </div>
     </div>
 </body>
