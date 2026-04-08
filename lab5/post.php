@@ -43,7 +43,7 @@ if (isset($posts[$postId])) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page">
+    <div class="home-page">
         <div class="sidebar">
             <div class="sidebar__menu">
                 <a href="home.php" class="sidebar__link">
